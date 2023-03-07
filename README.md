@@ -1,6 +1,15 @@
 # MyFirstApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
+## About the app
+- Made for practicing the basics of Angular.
+- Generated a few components, manually and via CLI.
+   - Success Alert - Two way binding for typing message and basic styling
+   - Warning Alert - Basic Styling
+   - Server and Servers - Creating servers and using property and event binding
+   - Display btn - Using ngIf, ngFor and ngStyles for dynamic styling and DOM Manipulation
+- 
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.\
 
 ## Development server
 
