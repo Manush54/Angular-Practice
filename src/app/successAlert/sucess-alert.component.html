@@ -1,7 +1,11 @@
 <h1>Success!!!</h1>
-<label>Success Message</label>
-<input type="text" [(ngModel)]="success_message">
-<p><u>Success Message:</u> {{success_message}}</p>
+<div class="row">
+    <div class="col-md-4">
+        <label>Success Message &emsp;:</label>
+        <input type="text"[(ngModel)]="success_message">
+    </div>
+    <p class="col-md-3"><u>Your Message:</u> {{success_message}}</p>
+</div>
 <button [disabled]="!success_message"
         (click)="onReset()" 
         class="btn btn-primary">
