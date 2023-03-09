@@ -6,6 +6,16 @@
         <app-success-alert></app-success-alert>
         <app-warning-alert></app-warning-alert>
         <app-display-btn></app-display-btn>
+        <app-game-control (incrementNumber)="onIntervalFired($event)"></app-game-control>
+        <div class="row">
+          <div class="col-md-6">
+            <app-odd *ngFor="let odd_num of oddNumbers" [number]="odd_num"></app-odd>
+          </div>
+          <div class="col-md-6">
+            <app-even *ngFor="let even_num of evenNumbers" [number]="even_num"></app-even>
+          </div>
+        </div>
+        <hr>
     </div>
   </div>
 </div>
