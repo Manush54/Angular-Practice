@@ -4,6 +4,7 @@
     Display Details
 </button>
 <p *ngIf="!disabled">Secret Password Revealed: "Tuna"</p>
+<hr>
 <p 
     *ngFor="let log of clickLog; index as i"
     [ngStyle]="{backgroundColor: getbgColor(i), color: getColor(i)}">
